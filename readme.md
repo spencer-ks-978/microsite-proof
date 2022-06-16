@@ -1,3 +1,4 @@
+### steps
 
 ```
 cd site-one
@@ -29,13 +30,13 @@ static site with
 
 the error page set to `index.thml`
 
-finally
+### finally
 
 navigate to 
 <s3-staticbuckete-url>/dashboard/#/invoices
 
 
-Problems making your own? 
+### Problems making your own? 
 
 make sure you have hash routing implemented
 
@@ -61,7 +62,9 @@ these things ensure the build points to the proper place when accessing things i
 
 
 
+### notes
 
-
-
+this is a really good resource for how to put your entire project in a custom subfolder
+you may have to take some of these extra steps in order to get yours working
+https://skryvets.com/blog/2018/09/20/an-elegant-solution-of-deploying-react-app-into-a-subdirectory/
 
