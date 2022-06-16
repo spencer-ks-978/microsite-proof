@@ -23,3 +23,14 @@ so s3 should look like this
 dashboard/
 home/
 ```
+
+in s3 you obviously need to set up a 
+static site with
+
+the error page set to `index.thml`
+
+finally
+
+navigate to 
+<s3-staticbuckete-url>/dashboard/#/invoices
+
