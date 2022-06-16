@@ -34,3 +34,34 @@ finally
 navigate to 
 <s3-staticbuckete-url>/dashboard/#/invoices
 
+
+Problems making your own? 
+
+make sure you have hash routing implemented
+
+
+also super important secret sauce when working with s3 
+
+site one package.json
+```
+  ...
+  "homepage": "/dashboard/",
+  ...
+```
+
+site two  package.json
+```
+  ...
+  "homepage": "/home/",
+  ...
+
+```
+
+these things ensure the build points to the proper place when accessing things in s3
+
+
+
+
+
+
+
